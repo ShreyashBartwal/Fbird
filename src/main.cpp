@@ -91,7 +91,7 @@ int main(void)
             if (framesCounter >= 90)
             {
                 framesCounter = 0;
-                int gapSize = GetRandomValue(100, 200);
+                int gapSize = GetRandomValue(130, 200);
                 // Calculate random heights for the gap
                 int minHeight = 50;
                 int maxHeight = screenHeight - gapSize - minHeight;
